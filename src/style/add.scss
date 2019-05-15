@@ -1,0 +1,27 @@
+.filter-body{
+    div{
+        img{
+            width: 100%;
+        }
+    }
+    ul{
+        margin-top: 0;
+        list-style: none;
+        width: 100%;
+        padding-left: 0;
+        display: flex;
+        flex-flow: wrap row;
+        justify-content: space-between;
+        li{
+            width: 30%;
+            padding-top: 5px;
+            cursor: pointer;
+            img{
+                width: 100%;
+            }
+            p{
+                margin-bottom: 5px; 
+            }
+        }
+    }
+}

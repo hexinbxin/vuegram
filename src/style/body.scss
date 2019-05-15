@@ -1,0 +1,41 @@
+.body{
+    .list{
+        background-color: #fff;
+        .list-header{
+            margin: 5px 0;
+            padding-top: 10px; 
+            display: flex;
+        }
+        .userImage{
+            img{
+                border-radius: 50%;
+                width: 100%;
+            }
+        }
+        .postImage{
+            img{
+                width: 100%;
+                cursor: pointer;
+            }
+        }
+        .like{
+            span{
+                font-size: 25px;
+                cursor: pointer;
+                &.clickLike{
+                    color: red;
+                }
+            }
+        }
+        .likes{
+            font-size: 20px;
+        }
+        .username{
+            position: relative;
+            p{
+                bottom: 50%;
+                transform: translateY(50%);
+            }
+        }
+    }
+}
