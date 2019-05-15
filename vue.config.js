@@ -7,5 +7,7 @@ module.exports = {
         jQuery: "jquery"
       })
     ]
-  }
+  },
+
+  publicPath: ''
 }
